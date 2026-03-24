@@ -27,6 +27,9 @@ public class MainWindow extends JFrame {
             }
         }
 
+        //Ran out of time to add in dialoguebox to confirm exit
+
+
         quitButton.addActionListener(e -> System.exit(0));
 
         JPanel bottomPanel = new JPanel(new BorderLayout());

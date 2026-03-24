@@ -1,7 +1,7 @@
 public class Board {
 
-    private final char[][] grid;
-    private static final int SIZE = 3;
+    private char[][] grid;
+    private static int SIZE = 3;
 
     public Board() {
         grid = new char[SIZE][SIZE];
